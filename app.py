@@ -5,18 +5,19 @@ import requests
 from helper import get_used_languages, init_lang_dict_complete, get_lang
 import gpt_classifier
 
-__version__ = "0.0.3"
-__author__ = "Lukas Calmbach"
-__author_email__ = "lcalmbach@gmail.com"
-VERSION_DATE = "2023-07-31"
-APP_NAME = "ClassifyGPT"
-GIT_REPO = "https://github.com/lcalmbach/classify-gpt"
+__version__ = ""
+__author__ = ""
+__author_email__ = ""
+VERSION_DATE = ""
+APP_NAME = "LangchainClassifyWeb"
+GIT_REPO = "https://github.com/luckpunk/langchain-classify-web"
 
 MAX_RECORDS = 10
 DEMO_CATEGORY_FILE =  './data/categories.csv' #"./categories.xlsx"
 DEMO_TEXT_FILE =  './data/inputs.csv' #"./2013_F13.xlsx"
 lang = {}
 LOTTIE_URL = "https://lottie.host/1690cd0e-184d-4481-a621-0ddc622fb335/9bUMwArBUr.json"
+
 
 
 def get_app_info():

@@ -1,4 +1,6 @@
-# classify-gpt
+# langchain-classify-web
+
+![](./langchain-classify-web.jpg)
 
 ## Introduction
 ClassifyGPT is an app that categorizes text using the OpenAI GPT-3 API. The app is built with the Streamlit framework, and implements the API through the gpt_classifier.py module.
@@ -18,10 +20,8 @@ You can then run the classification process by clicking the 'Classify' button. T
 You can clone and run the app locally with the following commands:
 
 ```
->git clone https://github.com/lcalmbach/classify-gpt.git
->cd classify-gpt
->pyython -m venv env
->env\scripts\activate
+>git clone https://github.com/luckpunk/langchain-classify-web
+>cd langchain-classify-web
 >pip install requirements.txt
 >streamlit run app.py
 ```
